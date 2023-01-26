@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:true,
+        dots:true,
+        adaptiveHeight:true,
+        slidesToShow:3,
+        slidesToScroll:3,
+        speed:1000,
+        easing:'ease',
+        infinite:true,
+        initialSlide:0,
+        aftoplay:false,
+        autoplaySpeed:1500,
+        pauseOnFocus:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        draggable:false,
+        swipe:true,
+        touchThreshold:10,
+        touchMove:true,
+        waitForAnimate:false,
+        centerMode:true,
+    });
+});
