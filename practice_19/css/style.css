@@ -1,0 +1,131 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700,800,900&display=swap");
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem; /* 16px */
+    height: 100%;
+    color: #5E6282;
+    background-color: rgba(195, 185, 255, 0.05);
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 80px;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgba(195, 185, 255, 0.3);
+    justify-content: center;
+}
+.header__logo {
+}
+.content {
+    padding: 30px;
+    flex: 1 1 auto;
+}
+.content__section {
+    margin: 0px 0px 50px 0px;
+}
+h2.content__title {
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+}
+h3.content__title {
+    font-size: 30px;
+    margin: 0px 0px 30px 0px;
+}
+.content__title {
+}
+.content__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.content__blocks-items {
+}
+.content__block {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.content__block-1,
+.content__block-2,
+.content__block-3 {
+    color: #fff;
+    box-shadow: 6px 6px 8px rgba(205, 200, 233, 0.5);
+    border-radius: 8px;
+}
+.content__block-1 {
+    background-color: #F375F3;
+}
+.content__block-2 {
+    background-color: #8D7AFF;
+}
+.content__block-3 {
+    background-color: #C3B9FF;
+}
+.content__block-3:not(:last-child) {
+    margin-bottom: 40px;
+}
+.click {
+}
+
+.content__row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px 0px 30px;
+    /* background-color: #F375F3; */
+}
+.content__column {
+    flex: 0 1 50%;
+    margin: 0px 0px 30px 0px;
+}
+.content__column-block {
+}
+.content__column-block-2 {
+}
+.content__column-items {
+}
+
+.content__block-3 {
+}
+
+/* .content__block-new-item {
+    display: none;
+} 
+.content-block-item {}
+
+@media (max-width: 992px) {
+    .content__block-new-item {
+        display: flex;
+    }
+    .content-block-item {
+        display: none;
+    }
+} */
+
+.footer {
+    background-color: rgba(195, 185, 255, 0.3);
+    padding: 0px 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.footer__text {
+}
